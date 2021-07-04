@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    
+
+}
+
+.game-container{
+    margin: 3% auto;
+    padding: 2%;
+    width:80%;
+    min-height:600px;
+    border:2px solid aqua;
+    display:grid;
+    grid-template-columns: 20% 20% 20% auto; 
+    justify-content: space-between;
+
+}
+
+.card{
+    height:150px;
+    width:120px;
+    border:none;
+    background-image:url('graph/q1.jpg')
+}
+
+
+.Activate{
+    border:3px solid aqua;
+}
+.DeActivate{
+    opacity:0;
+}
+
+.Activate, .DeActivate{
+    transition:.3s;
+}
+
+.Refresh{
+    background-image:url('graph/refresh.png');
+    position: absolute;
+    height:52px;
+    width:52px;
+    bottom:87%;
+}
+
+
+
+
